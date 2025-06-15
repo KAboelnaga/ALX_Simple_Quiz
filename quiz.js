@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const correctAnswer = "4";
         const feedbackDiv = document.getElementById('feedback');
         if (userAnswer === correctAnswer) {
-            feedbackDiv.textContent = 'Correct! Well done!';
+            feedbackDiv.textContent = 'Correct! Well done.';
             feedbackDiv.style.color = 'green';
             feedbackDiv.style.display = 'block';
         } else {

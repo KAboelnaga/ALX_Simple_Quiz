@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             feedbackDiv.style.color = 'green';
             feedbackDiv.style.display = 'block';
         } else {
-            feedbackDiv.textContent = 'Incorrect. Please try again.';
+            feedbackDiv.textContent = "That's incorrect. Try again!";
             feedbackDiv.style.color = 'red';
             feedbackDiv.style.display = 'block';
         }
